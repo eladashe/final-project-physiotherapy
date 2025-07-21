@@ -1,0 +1,29 @@
+{
+    "widgets_X": {
+        "label_LoginPage": 20,
+        "label_Username": 90,
+        "label_Password": 90,
+        "error_Username_or_Password": 90,
+        "lineEdit_Username": 90,
+        "lineEdit_Password": 90,
+        "LoginButton": 110,
+        "FirstUseButton": 10,
+        "label_goodbye_user": 190,
+        "label_Forgot_Password": 90
+    },
+    "widgets_Width": {
+        "label_LoginPage": 280,
+        "label_Username": 141,
+        "label_Password": 141,
+        "error_Username_or_Password": 200,
+        "lineEdit_Username": 140,
+        "lineEdit_Password": 140,
+        "LoginButton": 100,
+        "FirstUseButton": 75,
+        "label_goodbye_user": 121,
+        "label_Forgot_Password": 140
+    },
+    "window": {
+        "window_width": 320
+    }
+}

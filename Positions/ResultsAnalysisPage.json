@@ -1,0 +1,19 @@
+{
+    "widgets_X": {
+        "label_Result_Page": 20,
+        "HistoryResultsButton": 274,
+        "NewTestButton": 58,
+        "LogOffButton": 178,
+        "comboBoxLanguage": 344
+    },
+    "widgets_Width": {
+        "label_Result_Page": 392,
+        "HistoryResultsButton": 100,
+        "NewTestButton": 100,
+        "LogOffButton": 75,
+        "comboBoxLanguage": 68
+    },
+    "window": {
+        "window_width": 432
+    }
+}

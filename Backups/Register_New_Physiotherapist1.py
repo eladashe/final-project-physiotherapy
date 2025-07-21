@@ -1,0 +1,170 @@
+# -*- coding: utf-8 -*-
+
+################################################################################
+## Form generated from reading UI file 'Register_New_Physiotherapist.ui'
+##
+## Created by: Qt User Interface Compiler version 6.8.3
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
+    QMetaObject, QObject, QPoint, QRect,
+    QSize, QTime, QUrl, Qt)
+from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
+    QFont, QFontDatabase, QGradient, QIcon,
+    QImage, QKeySequence, QLinearGradient, QPainter,
+    QPalette, QPixmap, QRadialGradient, QTransform)
+from PySide6.QtWidgets import (QApplication, QCheckBox, QComboBox, QDateEdit,
+    QLabel, QLineEdit, QMainWindow, QMenuBar,
+    QPushButton, QSizePolicy, QStatusBar, QWidget, QMessageBox)
+import re
+from datetime import datetime
+
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow, controller=None):
+        self.controller = controller
+        self.current_user_email = getattr(controller, "current_user", None)
+        if not MainWindow.objectName():
+            MainWindow.setObjectName(u"MainWindow")
+        MainWindow.resize(481, 560)
+        self.centralwidget = QWidget(MainWindow)
+        self.centralwidget.setObjectName(u"centralwidget")
+        self.label_Register_New_Physiotherapist = QLabel(self.centralwidget)
+        self.label_Register_New_Physiotherapist.setObjectName(u"label_Register_New_Physiotherapist")
+        self.label_Register_New_Physiotherapist.setGeometry(QRect(20, 10, 441, 41))
+        font = QFont()
+        font.setPointSize(24)
+        font.setBold(True)
+        self.label_Register_New_Physiotherapist.setFont(font)
+        self.pushButton_Log_Off = QPushButton(self.centralwidget)
+        self.pushButton_Log_Off.setObjectName(u"pushButton_Log_Off")
+        self.pushButton_Log_Off.setGeometry(QRect(320, 490, 75, 24))
+        self.pushButton_Add_New_Physiotherapist = QPushButton(self.centralwidget)
+        self.pushButton_Add_New_Physiotherapist.setObjectName(u"pushButton_Add_New_Physiotherapist")
+        self.pushButton_Add_New_Physiotherapist.setGeometry(QRect(160, 430, 151, 31))
+        # self.pushButton_Add_New_Physiotherapist.clicked.connect(self.handle_registration)
+        self.pushButton_Return = QPushButton(self.centralwidget)
+        self.pushButton_Return.setObjectName(u"pushButton_Return")
+        self.pushButton_Return.setGeometry(QRect(90, 490, 75, 24))
+        self.label_Is_Admin = QLabel(self.centralwidget)
+        self.label_Is_Admin.setObjectName(u"label_Is_Admin")
+        self.label_Is_Admin.setGeometry(QRect(90, 390, 71, 21))
+        self.label_Last_Name = QLabel(self.centralwidget)
+        self.label_Last_Name.setObjectName(u"label_Last_Name")
+        self.label_Last_Name.setGeometry(QRect(90, 270, 71, 21))
+        self.lineEdit_First_Name = QLineEdit(self.centralwidget)
+        self.lineEdit_First_Name.setObjectName(u"lineEdit_First_Name")
+        self.lineEdit_First_Name.setGeometry(QRect(230, 230, 160, 21))
+        self.lineEdit_Email = QLineEdit(self.centralwidget)
+        self.lineEdit_Email.setObjectName(u"lineEdit_Email")
+        self.lineEdit_Email.setGeometry(QRect(230, 70, 160, 21))
+        self.comboBox_Gender = QComboBox(self.centralwidget)
+        # self.comboBox_Gender.addItems(["Male", "Female", "Other"])
+        self.comboBox_Gender.setObjectName(u"comboBox_Gender")
+        self.comboBox_Gender.setGeometry(QRect(230, 150, 160, 21))
+        self.comboBox_Gender.setCursor(QCursor(Qt.CursorShape.OpenHandCursor))
+        self.label_First_Name = QLabel(self.centralwidget)
+        self.label_First_Name.setObjectName(u"label_First_Name")
+        self.label_First_Name.setGeometry(QRect(90, 230, 71, 21))
+        self.label_Email = QLabel(self.centralwidget)
+        self.label_Email.setObjectName(u"label_Email")
+        self.label_Email.setGeometry(QRect(90, 70, 61, 21))
+        self.dateEdit_Date_Of_Birth = QDateEdit(self.centralwidget)
+        self.dateEdit_Date_Of_Birth.setObjectName(u"dateEdit_Date_Of_Birth")
+        self.dateEdit_Date_Of_Birth.setEnabled(True)
+        self.dateEdit_Date_Of_Birth.setGeometry(QRect(230, 190, 160, 21))
+        self.dateEdit_Date_Of_Birth.setCursor(QCursor(Qt.CursorShape.OpenHandCursor))
+        self.dateEdit_Date_Of_Birth.setMouseTracking(False)
+        self.dateEdit_Date_Of_Birth.setLayoutDirection(Qt.LayoutDirection.RightToLeft)
+        self.dateEdit_Date_Of_Birth.setCalendarPopup(True)
+        self.label_Date_Of_Birth = QLabel(self.centralwidget)
+        self.label_Date_Of_Birth.setObjectName(u"label_Date_Of_Birth")
+        self.label_Date_Of_Birth.setGeometry(QRect(90, 190, 75, 21))
+        self.label_Gender = QLabel(self.centralwidget)
+        self.label_Gender.setObjectName(u"label_Gender")
+        self.label_Gender.setGeometry(QRect(90, 150, 49, 21))
+        self.lineEdit_Last_Name = QLineEdit(self.centralwidget)
+        self.lineEdit_Last_Name.setObjectName(u"lineEdit_Last_Name")
+        self.lineEdit_Last_Name.setGeometry(QRect(230, 270, 160, 21))
+        self.lineEdit_Password_Confirmation = QLineEdit(self.centralwidget)
+        self.lineEdit_Password_Confirmation.setObjectName(u"lineEdit_Password_Confirmation")
+        self.lineEdit_Password_Confirmation.setGeometry(QRect(230, 350, 160, 21))
+        self.label_Password_Confirmation = QLabel(self.centralwidget)
+        self.label_Password_Confirmation.setObjectName(u"label_Password_Confirmation")
+        self.label_Password_Confirmation.setGeometry(QRect(90, 350, 140, 21))
+        self.lineEdit_Password = QLineEdit(self.centralwidget)
+        self.lineEdit_Password.setObjectName(u"lineEdit_Password")
+        self.lineEdit_Password.setGeometry(QRect(230, 310, 160, 21))
+        self.label_Password = QLabel(self.centralwidget)
+        self.label_Password.setObjectName(u"label_Password")
+        self.label_Password.setGeometry(QRect(90, 310, 71, 21))
+        self.checkBox_Is_Admin = QCheckBox(self.centralwidget)
+        self.checkBox_Is_Admin.setObjectName(u"checkBox_Is_Admin")
+        self.checkBox_Is_Admin.setGeometry(QRect(230, 390, 16, 21))
+        self.label_Username = QLabel(self.centralwidget)
+        self.label_Username.setObjectName(u"label_Username")
+        self.label_Username.setGeometry(QRect(90, 110, 70, 21))
+        self.lineEdit_Username = QLineEdit(self.centralwidget)
+        self.lineEdit_Username.setObjectName(u"lineEdit_Username")
+        self.lineEdit_Username.setGeometry(QRect(230, 110, 160, 21))
+        MainWindow.setCentralWidget(self.centralwidget)
+
+        self.retranslateUi(MainWindow)
+
+        self.comboBox_Gender.setCurrentIndex(-1)
+
+        # Error Labels
+        self.error_Email = QLabel(self.centralwidget)
+        self.error_Email.setGeometry(QRect(239, 90, 200, 16))
+        # self.error_Email.setStyleSheet("color: red")
+        # self.error_Email.hide()
+        self.error_Username = QLabel(self.centralwidget)
+        self.error_Username.setGeometry(QRect(239, 130, 200, 16))
+        # self.error_Username.setStyleSheet("color: red")
+        # self.error_Username.hide()
+        self.error_First_Name = QLabel(self.centralwidget)
+        self.error_First_Name.setGeometry(QRect(239, 210, 200, 16))
+        # self.error_First_Name.setStyleSheet("color: red")
+        # self.error_First_Name.hide()
+        self.error_Last_Name = QLabel(self.centralwidget)
+        self.error_Last_Name.setGeometry(QRect(239, 250, 200, 16))
+        # self.error_Last_Name.setStyleSheet("color: red")
+        # self.error_Last_Name.hide()
+        self.error_Password = QLabel(self.centralwidget)
+        self.error_Password.setGeometry(QRect(239, 330, 200, 16))
+        # self.error_Password.setStyleSheet("color: red")
+        # self.error_Password.hide()
+        # self.lineEdit_Email.editingFinished.connect(self.handle_email_finished)
+
+        QMetaObject.connectSlotsByName(MainWindow)
+        # setupUi
+
+
+    def retranslateUi(self, MainWindow):
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
+        self.label_Register_New_Physiotherapist.setText(
+            QCoreApplication.translate("MainWindow", u"Register New Physiotherapist", None))
+        self.pushButton_Log_Off.setText(QCoreApplication.translate("MainWindow", u"Log Off", None))
+        self.pushButton_Add_New_Physiotherapist.setText(
+            QCoreApplication.translate("MainWindow", u"Add New Physiotherapist", None))
+        self.pushButton_Return.setText(QCoreApplication.translate("MainWindow", u"Return", None))
+        self.label_Is_Admin.setText(QCoreApplication.translate("MainWindow", u"Is Admin:", None))
+        self.label_Last_Name.setText(QCoreApplication.translate("MainWindow", u"Last Name:", None))
+        self.comboBox_Gender.setItemText(0, QCoreApplication.translate("MainWindow", u"Male", None))
+        self.comboBox_Gender.setItemText(1, QCoreApplication.translate("MainWindow", u"Female", None))
+        self.comboBox_Gender.setItemText(2, QCoreApplication.translate("MainWindow", u"Other", None))
+
+        self.label_First_Name.setText(QCoreApplication.translate("MainWindow", u"First Name:", None))
+        self.label_Email.setText(QCoreApplication.translate("MainWindow", u"Email:", None))
+        self.label_Date_Of_Birth.setText(QCoreApplication.translate("MainWindow", u"Date Of Birth:", None))
+        self.label_Gender.setText(QCoreApplication.translate("MainWindow", u"Gender:", None))
+        self.label_Password_Confirmation.setText(
+            QCoreApplication.translate("MainWindow", u"Password Confirmation:", None))
+        self.label_Password.setText(QCoreApplication.translate("MainWindow", u"Password:", None))
+        self.checkBox_Is_Admin.setText("")
+        self.label_Username.setText(QCoreApplication.translate("MainWindow", u"Username:", None))
+
+    # retranslateUi
+

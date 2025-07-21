@@ -1,0 +1,21 @@
+{
+    "widgets_X": {
+        "AddButton": 10,
+        "RemoveButton": 230,
+        "label_Admin_Page": 15,
+        "LogOffButton": 280,
+        "ReturnButton": 50,
+        "comboBoxLanguage": 340
+    },
+    "widgets_Width": {
+        "AddButton": 151,
+        "RemoveButton": 181,
+        "label_Admin_Page": 405,
+        "LogOffButton": 75,
+        "ReturnButton": 75,
+        "comboBoxLanguage": 68
+    },
+    "window": {
+        "window_width": 435
+    }
+}

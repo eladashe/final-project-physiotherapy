@@ -1,0 +1,21 @@
+{
+    "widgets_X": {
+        "ExplorerButton": 71,
+        "DiagnosticButton": 285,
+        "label_Check_System_Page": 15,
+        "LogOffButton": 322,
+        "ReturnButton": 22,
+        "comboBoxLanguage": 340
+    },
+    "widgets_Width": {
+        "ExplorerButton": 72,
+        "DiagnosticButton": 72,
+        "label_Check_System_Page": 398,
+        "LogOffButton": 75,
+        "ReturnButton": 69,
+        "comboBoxLanguage": 68
+    },
+    "window": {
+        "window_width": 428
+    }
+}

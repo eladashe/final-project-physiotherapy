@@ -1,0 +1,33 @@
+{
+    "widgets_X": {
+        "label_Patient_History_Page": 10,
+        "ExportToCSVButton": 254,
+        "dateEdit_From": 420,
+        "qt_spinbox_lineedit": 4,
+        "NewTestButton": 38,
+        "dateEdit_To": 590,
+        "label_To_Date": 590,
+        "LogOffButton": 158,
+        "label_From_Date": 420,
+        "label_Gauge_Title": 0,
+        "label_Gauge_Percentage": 0,
+        "comboBoxLanguage": 1430
+    },
+    "widgets_Width": {
+        "label_Patient_History_Page": 1501,
+        "ExportToCSVButton": 100,
+        "dateEdit_From": 110,
+        "qt_spinbox_lineedit": 86,
+        "NewTestButton": 100,
+        "dateEdit_To": 110,
+        "label_To_Date": 110,
+        "LogOffButton": 75,
+        "label_From_Date": 110,
+        "label_Gauge_Title": 381,
+        "label_Gauge_Percentage": 381,
+        "comboBoxLanguage": 68
+    },
+    "window": {
+        "window_width": 1522
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "widgets_X": {
+        "label_Remove_Existing_Physiotherapist": 25,
+        "RemoveButton": 333,
+        "ReturnButton": 175,
+        "LogOffButton": 600,
+        "comboBoxLanguage": 768
+    },
+    "widgets_Width": {
+        "label_Remove_Existing_Physiotherapist": 811,
+        "RemoveButton": 184,
+        "ReturnButton": 75,
+        "LogOffButton": 75,
+        "comboBoxLanguage": 68
+    },
+    "window": {
+        "window_width": 850
+    }
+}

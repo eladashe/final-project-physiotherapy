@@ -1,0 +1,218 @@
+{
+  "__Titles__": "Titles",
+  "admin_title": "Admin Page",
+  "check_system_title": "Check System Page",
+  "first_use_title": "First Use Page",
+  "login_title": "Login Page",
+  "patient_history_title": "Patient History Page",
+  "register_title": "Register New Physiotherapist",
+  "remove_title": "Remove Existing Physiotherapist",
+  "reset_password_title": "Reset Password",
+  "results_title": "Result Analysis Page",
+  "test_parameters_title": "Test Parameters Page",
+
+  
+  "__Labels__": "Labels",
+
+  "_LoginPage_Labels_": "LoginPage",
+  "Goodbye_User_Dynamic": "Goodbye {name}!",
+  "forgot_password": "Forgot Password?",
+
+  "_PatientHistoryPage_Labels_": "PatientHistoryPage",
+  "gauge_title": "KPI - Successful Steps / Total Steps",
+  "Line_Chart_Title": "Test Date",
+  "graph_title_fall_risk": "Fall Risk Over Time",
+  "graph_title_step_count": "Step Count Over Time",
+  "graph_title_error_steps": "Error Steps Over Time",
+  "from_date_label": "From Date:",
+  "to_date_label": "To Date:",
+
+  "_PreparationPage_Labels_": "PreparationPage",
+  "preparation_title_label": "Instructions before starting the test:",
+  "preparation_instructions": "Please prepare the patient for the test according to the following instructions:\n\n• Ensure the patient is standing upright behind the starting line with both feet fully behind it.\n• Verify that the patient is wearing appropriate and comfortable footwear for walking.\n• The test will begin once a sound is heard, and the patient should start walking at a natural pace.\n• Emphasize that the patient should not rush or stop — they should maintain a steady and consistent walking speed.\n• If necessary, demonstrate how the test should be performed or answer any questions before beginning.\n\nWhen everything is ready, click \"Start Test\" to proceed.", 
+
+  "_RegisterNewPhysiotherapist_Labels_": "RegisterNewPhysiotherapist",
+  "is_admin_label": "Is Admin:",
+
+  "_TestParametersPage_Labels_": "TestParametersPage",
+  "Welcome_User_Dynamic": "Welcome {name}!",
+  "patient_id_label": "Patient ID:",
+  "shoe_width_label": "Shoe Width:",
+  "pelvic_width_label": "Pelvic Width:",
+  "has_fallen_label": "Has the patient fallen in the last year?",
+  "notes_label": "Notes",
+
+  "_General_Labels_": "General",
+  "first_name_label": "First Name:",
+  "last_name_label": "Last Name:",
+  "email_label": "Email:",
+  "username_label": "Username:",
+  "gender_label": "Gender:",
+  "dob_label": "Date Of Birth:",
+  "password_label": "Password:",
+  "password_confirm_label": "Password Confirmation:",
+
+
+  
+  "__LabelErrors__": "LabelErrors",
+
+  "_LoginPage_LabelErrors_": "LoginPage",
+  "error_invalid_login": "",
+  "error_Username_or_Password": "Incorrect username or password",
+
+  "_TestParametersPage_LabelErrors_": "TestParametersPage",
+  "error_Patient_Id_isdigit": "Patient ID must be numeric.",
+  "error_Patient_Id_length": "Patient ID must be 9 digits long.",
+  "error_Shoe_Width_Empty": "Shoe Width is required.",
+  "error_Shoe_Width_numeric": "Shoe Width must be a number.",
+  "error_Shoe_Width": "Shoe width must be between {min} and {max} cm.",
+  "error_Pelvic_Width_Empty": "Pelvic Width is required.",
+  "error_Pelvic_Width_numeric": "Pelvic Width must be a number.",
+  "error_Pelvic_Width": "Pelvic width must be between {min} and {max} cm.",
+  "error_Patient_Has_Fallen": "Please select Yes or No.",
+
+  "_General_LabelErrors_": "General",
+  "error_email": "",
+  "error_Email@": "Email must contain '@'",
+  "error_Email_Already_Exist": "Email already exists",
+  "error_Email_Not_Found": "Email not found",
+  "error_Username": "Invalid Username",
+  "error_Username_Already_Exist": "Username already exists",
+  "error_Gender": "Please Select a Gender",
+  "error_First_Name": "Invalid First Name",
+  "error_Last_Name": "Invalid Last Name",
+  "error_Password": "Invalid Password",
+  "error_Password_not_strong_enough": "Password is not strong enough.",
+  "error_Password_requirements_title": "Password Requirements",
+  "error_Password_requirements_full": "Password is not strong enough.\n\nIt must meet the following criteria:\n• At least 8 characters\n• At least one uppercase letter\n• At least one lowercase letter\n• At least one digit (0-9)\n• At least one special character (!@#$%^&*)",
+  "error_Password_Confirmation": "Passwords do not match",
+
+  
+  "__Buttons__": "Buttons",
+
+  "_CheckSystemPage_Buttons_": "CheckSystemPage",
+  "explorer_button": "Explorer",
+  "diagnostic_button": "Diagnostic",
+
+  "_FirstUsePage_Buttons_": "FirstUsePage",
+  "reset_button": "Reset",
+  "add_admin_button": "Add Admin",
+
+  "_LoginPage_Buttons_": "LoginPage",
+  "login_button": "Login",
+  "first_use_button": "First Use",
+
+  "_PatientHistoryPage_Buttons_": "PatientHistoryPage",
+  "export_to_csv_button": "Export to CSV",
+  "new_test_button": "New Test",
+
+  "_PreparationPage_Buttons_": "PreparationPage",
+  "start_test_button": "Start Test",
+
+  "_ResetPasswordPage_Buttons_": "ResetPasswordPage",
+  "reset_password_button": "Reset Password",
+
+  "_ResultsAnalysisPage_Buttons_": "ResultsAnalysisPage",
+  "history_results_button": "History Results",
+
+  "_TestParametersPage_Buttons_": "TestParametersPage",
+  "continue_button": "Continue",
+  "admin_page_button": "Admin Page",
+  "check_system_button": "Check System",
+  "patient_history_button": "Patient's History",
+
+  "_General_Buttons_": "General",
+  "logoff_button": "Log Off",
+  "return_button": "Return",
+  "add_button": "Add New Physiotherapist",
+  "remove_button": "Remove Existing Physiotherapist",
+
+  
+  "__Tables__": "Tables",
+
+  "_PatientHistoryPage_Tables_": "PatientHistoryPage",
+  "column_test_date": "Test Date",
+  "column_fall_risk": "Fall Risk",
+  "column_total_steps": "Total Steps",
+  "column_error_steps": "Error Steps",
+  "column_start_time": "Start Time",
+  "column_end_time": "End Time",
+  "column_test_time": "Test Time (sec)",
+
+  "_RemoveExistingPhysiotherapists_Tables_": "RemoveExistingPhysiotherapists",
+  "column_email": "Email",
+  "column_username": "Username",
+  "column_first_name": "First Name",
+  "column_last_name": "Last Name",
+  "column_gender": "Gender",
+  "column_age": "Age",
+  "column_is_admin": "Is Admin",
+
+  "_ResultsAnalysisPage_Tables_": "ResultsAnalysisPage",
+  "results_column_value": "Value",
+  "results_row_fall_risk": "Fall Risk",
+  "results_row_test_time": "Test Time",
+  "results_row_step_count": "Number of Steps",
+  "results_row_error_steps": "Error Steps",
+
+  
+  "__ComboBoxes__": "ComboBoxes",
+
+  "_TestParametersPage_ComboBoxes_": "TestParametersPage",
+  "fallen_yes": "Yes",
+  "fallen_no": "No",
+
+  "_General_ComboBoxes_": "General",
+  "gender_male": "Male",
+  "gender_female": "Female",
+  "gender_other": "Other",
+
+  
+  "__MessageBoxes__": "MessageBoxes",
+
+  "_FirstUsePage_MessageBoxes_": "FirstUsePage",
+  "reset_confirm_title": "Confirm Reset",
+  "reset_confirm_text": "⚠️ This will permanently delete all records from the system.\nAre you sure you want to proceed?",
+  "reset_success_title": "Database Reset",
+  "reset_success_text": "✅ All data has been successfully cleared.",
+  "reset_fail_title": "Error",
+  "reset_fail_text": "❌ Failed to reset database.",
+
+  "_PatientHistoryPage_MessageBoxes_": "PatientHistoryPage",
+  "no_data_title": "No Data",
+  "no_data_text": "No test records to export.",
+  "export_success_title": "Export Complete",
+  "export_success_text": "Test history exported to:\n{filename}",
+
+  "_RegisterNewPhysiotherapist_MessageBoxes_": "RegisterNewPhysiotherapist",
+  "register_success_title": "Success",
+  "register_success_text": "Physiotherapist registered successfully.",
+  "register_fail_title": "Database Error",
+  "register_fail_text": "Could not register physiotherapist.",
+
+  "_RemoveExistingPhysiotherapists_MessageBoxes_": "RemoveExistingPhysiotherapists",
+  "delete_confirm_title": "Confirm Deletion",
+  "delete_confirm_text": "Are you sure you want to delete:\n{email}?",
+  "delete_no_selection_title": "No Selection",
+  "delete_no_selection_text": "Please select a physiotherapist to delete.",
+  "delete_success_title": "Deleted",
+  "delete_success_text": "Physiotherapist was deleted successfully.",
+  "delete_fail_title": "Error",
+  "delete_fail_text": "Failed to delete physiotherapist.",
+
+  "_ResetPasswordPage_MessageBoxes_": "ResetPasswordPage",
+  "password_reset_success_title": "Success",
+  "password_reset_success_text": "Password has been reset successfully.",
+  "password_reset_fail_title": "Database Error",
+  "password_reset_fail_text": "Could not reset password.",
+
+  "_ResultsAnalysisPage_MessageBoxes_": "ResultsAnalysisPage",
+  "test_fail_title": "Database Error",
+  "test_fail_text": "Failed to create test record.",
+
+  "_General_MessageBoxes_": "General",
+  "timeout_title": "Session Timeout",
+  "timeout_text": "You have been logged out due to inactivity.",
+  "inactive_title": "Are you still there?",
+  "inactive_message": "You have been inactive for {minutes} minutes.\nDo you want to stay logged in?"
+}

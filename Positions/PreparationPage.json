@@ -1,0 +1,17 @@
+{
+    "widgets_X": {
+        "label_Instructions": 20,
+        "label_Title": 20,
+        "StartTestButton": 293,
+        "comboBoxLanguage": 580
+    },
+    "widgets_Width": {
+        "label_Instructions": 621,
+        "label_Title": 621,
+        "StartTestButton": 75,
+        "comboBoxLanguage": 68
+    },
+    "window": {
+        "window_width": 661
+    }
+}

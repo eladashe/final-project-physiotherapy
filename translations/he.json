@@ -1,0 +1,219 @@
+{
+  "__Titles__": "Titles",
+  "admin_title": "עמוד מנהלים",
+  "check_system_title": "עמוד בדיקת מערכת",
+  "first_use_title": "עמוד שימוש ראשוני",
+  "login_title": "עמוד התחברות",
+  "patient_history_title": "עמוד היסטוריית המטופל",
+  "register_title": "רישום פיזיותרפיסט חדש",
+  "remove_title": "הסרת פיזיותרפיסט קיים",
+  "reset_password_title": "איפוס סיסמה",
+  "results_title": "עמוד ניתוח תוצאות",
+  "test_parameters_title": "עמוד בדיקת פרמטרים",
+
+  
+  "__Labels__": "Labels",
+
+  "_LoginPage_Labels_": "LoginPage",
+  "Goodbye_User_Dynamic": "להתראות {name}!",
+  "forgot_password": "שכחת סיסמה?",
+
+  "_PatientHistoryPage_Labels_": "PatientHistoryPage",
+  "gauge_title": "KPI - צעדים מוצלחים / סך צעדים",
+  "Line_Chart_Title": "ןחבמה ךיראת",
+  "graph_title_fall_risk": "ןמז ךרואל ןחבמל הליפנל ןוכיס",
+  "graph_title_step_count": "ןמז ךרואל ןחבמל םידעצה ךס",
+  "graph_title_error_steps": "ןמז ךרואל ןחבמל םייוגש םידעצ",
+  "from_date_label": "מתאריך:",
+  "to_date_label": "עד תאריך:",
+
+  "_PreparationPage_Labels_": "PreparationPage",
+  "preparation_title_label": "הוראות לפני תחילת הבדיקה:",
+  "preparation_instructions2": "הכגכגה",
+  "preparation_instructions": "אנא הכינו את המטופל לבדיקה בהתאם להוראות הבאות:\n\n• ודאו שהמטופל עומד זקוף מאחורי קו הזינוק כששתי רגליו מאחורי הקו לחלוטין.\n• ודא שהמטופל נועל נעליים מתאימות ונוחות להליכה.\n• הבדיקה תתחיל לאחר הישמע הצליל, והמטופל צריך להתחיל ללכת בקצב טבעי.\n• הדגישו כי המטופל לא צריך למהר או לעצור - עליו לשמור על מהירות הליכה קבועה ועקבית.\n• במידת הצורך, הדגימו כיצד יש לבצע את הבדיקה או ענו על שאלות לפני תחילתה.\n\nכאשר הכל מוכן, לחץ על 'התחל בדיקה' כדי להמשיך.",
+
+  "_RegisterNewPhysiotherapist_Labels_": "RegisterNewPhysiotherapist",
+  "is_admin_label": "האם מנהל/ת:",
+
+  "_TestParametersPage_Labels_": "TestParametersPage",
+  "Welcome_User_Dynamic": "ברוכים הבאים {name}!",
+  "patient_id_label": "מזהה מטופל:",
+  "shoe_width_label": "רוחב נעליים:",
+  "pelvic_width_label": "רוחב האגן:",
+  "has_fallen_label": "האם המטופל נפל בשנה האחרונה?",
+  "notes_label": "הערות",
+
+  "_General_Labels_": "General",
+  "first_name_label": "שם פרטי:",
+  "last_name_label": "שם משפחה:",
+  "email_label": "אימייל:",
+  "username_label": "שם משתמש:",
+  "gender_label": "מגדר:",
+  "dob_label": "תאריך לידה:",
+  "password_label": "סיסמה:",
+  "password_confirm_label": "אישור סיסמה:",
+
+
+  
+  "__LabelErrors__": "LabelErrors",
+
+  "_LoginPage_LabelErrors_": "LoginPage",
+  "error_invalid_login": "",
+  "error_Username_or_Password": "שם משתמש או סיסמה שגויים",
+
+  "_TestParametersPage_LabelErrors_": "TestParametersPage",
+  "error_Patient_Id_isdigit": "זיהוי המטופל חייב להיות מספרי.",
+  "error_Patient_Id_length": "זיהוי המטופל חייב להיות באורך 9 ספרות.",
+  "error_Shoe_Width_Empty": "נדרש רוחב נעל.",
+  "error_Shoe_Width_numeric": "רוחב הנעל חייב להיות מספרי.",
+  "error_Shoe_Width": "רוחב הנעל חייב להיות בין {min} ל-{max} ס''מ.",
+  "error_Pelvic_Width_Empty": "נדרש רוחב אגן.",
+  "error_Pelvic_Width_numeric": "רוחב האגן חייב להיות מספרי.",
+  "error_Pelvic_Width": "רוחב האגן חייב להיות בין {min} ל-{max} ס''מ.",
+  "error_Patient_Has_Fallen": "אנא סמנו כן או לא.",
+
+  "_General_LabelErrors_": "General",
+  "error_email": "",
+  "error_Email@": "האימייל חייב להכיל '@'",
+  "error_Email_Already_Exist": "האימייל כבר קיים",
+  "error_Email_Not_Found": "האימייל לא נמצא",
+  "error_Username": "שם משתמש לא תקין",
+  "error_Username_Already_Exist": "שם המשתמש כבר קיים",
+  "error_Gender": "נא בחרו מגדר",
+  "error_First_Name": "שם פרטי לא תקין",
+  "error_Last_Name": "שם משפחה לא תקין",
+  "error_Password": "סיסמה לא תקינה",
+  "error_Password_not_strong_enough": "הסיסמה אינה חזקה מספיק.",
+  "error_Password_requirements_title": "דרישות סיסמה",
+  "error_Password_requirements_full": "הסיסמה אינה חזקה מספיק.\n\nעליה לעמוד בקריטריונים הבאים:\n• לפחות 8 תווים\n• לפחות אות גדולה אחת\n• לפחות אות קטנה אחת\n• לפחות ספרה אחת (0-9)\n• לפחות תו מיוחד אחד (!@#$%^&*)",
+  "error_Password_Confirmation": "הסיסמאות אינן תואמות",
+
+  
+  "__Buttons__": "Buttons",
+
+  "_CheckSystemPage_Buttons_": "CheckSystemPage",
+  "explorer_button": "Explorer",
+  "diagnostic_button": "Diagnostic",
+
+  "_FirstUsePage_Buttons_": "FirstUsePage",
+  "reset_button": "איפוס",
+  "add_admin_button": "הוספת מנהל/ת",
+
+  "_LoginPage_Buttons_": "LoginPage",
+  "login_button": "התחברות",
+  "first_use_button": "שימוש ראשוני",
+
+  "_PatientHistoryPage_Buttons_": "PatientHistoryPage",
+  "export_to_csv_button": "ייצוא לאקסל",
+  "new_test_button": "מבחן חדש",
+
+  "_PreparationPage_Buttons_": "PreparationPage",
+  "start_test_button": "התחלת מבחן",
+
+  "_ResetPasswordPage_Buttons_": "ResetPasswordPage",
+  "reset_password_button": "איפוס סיסמה",
+
+  "_ResultsAnalysisPage_Buttons_": "ResultsAnalysisPage",
+  "history_results_button": "מבחני עבר",
+
+  "_TestParametersPage_Buttons_": "TestParametersPage",
+  "continue_button": "להמשיך",
+  "admin_page_button": "עמוד מנהלים",
+  "check_system_button": "בדיקת מערכת",
+  "patient_history_button": "היסטוריית מטופל",
+
+  "_General_Buttons_": "General",
+  "logoff_button": "התנתקות",
+  "return_button": "חזרה",
+  "add_button": "הוספת פיזיותרפיסט חדש",
+  "remove_button": "הסרת פיזיותרפיסט קיים",
+
+  
+  "__Tables__": "Tables",
+
+  "_PatientHistoryPage_Tables_": "PatientHistoryPage",
+  "column_test_date": "תאריך המבחן",
+  "column_fall_risk": "סיכון נפילה",
+  "column_total_steps": "סך כל הצעדים",
+  "column_error_steps": "צעדים שגויים",
+  "column_start_time": "זמן התחלה",
+  "column_end_time": "זמן סיום",
+  "column_test_time": "זמן בדיקה (שניות)",
+
+  "_RemoveExistingPhysiotherapists_Tables_": "RemoveExistingPhysiotherapists",
+  "column_email": "אימייל",
+  "column_username": "שם משתמש",
+  "column_first_name": "שם פרטי",
+  "column_last_name": "שם משפחה",
+  "column_gender": "מגדר",
+  "column_age": "גיל",
+  "column_is_admin": "האם מנהל/ת",
+
+  "_ResultsAnalysisPage_Tables_": "ResultsAnalysisPage",
+  "results_column_value": "ערך",
+  "results_row_fall_risk": "סיכון נפילה",
+  "results_row_test_time": "זמן מבחן",
+  "results_row_step_count": "מספר צעדים",
+  "results_row_error_steps": "צעדים שגויים",
+
+  
+  "__ComboBoxes__": "ComboBoxes",
+
+  "_TestParametersPage_ComboBoxes_": "TestParametersPage",
+  "fallen_yes": "כן",
+  "fallen_no": "לא",
+
+  "_General_ComboBoxes_": "General",
+  "gender_male": "גבר",
+  "gender_female": "אישה",
+  "gender_other": "אחר",
+
+  
+  "__MessageBoxes__": "MessageBoxes",
+
+  "_FirstUsePage_MessageBoxes_": "FirstUsePage",
+  "reset_confirm_title": "אישור איפוס",
+  "reset_confirm_text": "⚠️ פעולה זו תמחק לצמיתות את כל הרשומות מהמערכת.\nהאם אתה בטוח שברצונך להמשיך?",
+  "reset_success_title": "איפוס מסד נתונים",
+  "reset_success_text": "✅ כל הנתונים נוקו בהצלחה.",
+  "reset_fail_title": "שגיאה",
+  "reset_fail_text": "❌ איפוס מסד הנתונים נכשל.",
+
+  "_PatientHistoryPage_MessageBoxes_": "PatientHistoryPage",
+  "no_data_title": "אין נתונים",
+  "no_data_text": "אין רשומות מבחן לייצוא.",
+  "export_success_title": "הייצוא הושלם",
+  "export_success_text": "היסטוריית הבדיקות יוצאה אל:\n{filename}",
+
+  "_RegisterNewPhysiotherapist_MessageBoxes_": "RegisterNewPhysiotherapist",
+  "register_success_title": "הצלחה",
+  "register_success_text": "הפיזיותרפיסט נרשם בהצלחה.",
+  "register_fail_title": "שגיאת מסד נתונים",
+  "register_fail_text": "לא ניתן היה לרשום פיזיותרפיסט.",
+
+  "_RemoveExistingPhysiotherapists_MessageBoxes_": "RemoveExistingPhysiotherapists",
+  "delete_confirm_title": "אישור מחיקה",
+  "delete_confirm_text": "האם את/ה בטוח/ה שברצונך למחוק:\n{email}?",
+  "delete_no_selection_title": "אין בחירה",
+  "delete_no_selection_text": "אנא בחר/י פיזיותרפיסט/ית למחיקה.",
+  "delete_success_title": "נמחק",
+  "delete_success_text": "הפיזיותרפיסט/ית נמחק/ה בהצלחה.",
+  "delete_fail_title": "שגיאה",
+  "delete_fail_text": "מחיקת הפיזיותרפיסט/ית נכשלה.",
+
+  "_ResetPasswordPage_MessageBoxes_": "ResetPasswordPage",
+  "password_reset_success_title": "הצלחה",
+  "password_reset_success_text": "הסיסמה אופסה בהצלחה.",
+  "password_reset_fail_title": "שגיאת מסד נתונים",
+  "password_reset_fail_text": "לא ניתן היה לאפס את הסיסמה.",
+
+  "_ResultsAnalysisPage_MessageBoxes_": "ResultsAnalysisPage",
+  "test_fail_title": "שגיאת מסד נתונים",
+  "test_fail_text": "יצירת רשומת המבחן נכשלה.",
+
+  "_General_MessageBoxes_": "General",
+  "inactive_title": "אתה עדיין שם?",
+  "inactive_message": "היית לא פעיל/ה במשך {minutes} דקות. האם ברצונך להישאר מחובר?",
+  "timeout_title": "זמן קצוב להפעלה",
+  "timeout_text": "התנתקת עקב חוסר פעילות."
+}
